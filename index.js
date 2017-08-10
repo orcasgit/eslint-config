@@ -26,7 +26,7 @@ module.exports = {
     'callback-return': 2,
     camelcase: [
       2,
-      {properties: never},
+      {properties: 'never'},
     ],
     'comma-spacing': 2,
     'comma-style': 2,
@@ -47,7 +47,7 @@ module.exports = {
     'id-length': [
       2,
       {
-        properties: 'never'
+        properties: 'never',
         exceptions: ['$', '_', 'i'],
       },
     ],
@@ -61,7 +61,7 @@ module.exports = {
     'linebreak-style': 2,
     'max-depth': 1,
     'max-len': 2,
-    'max-nested-callback's: [1, 3],
+    'max-nested-callbacks': [1, 3],
     'max-params': [1, 6],
     'max-statements-per-line': [
       2,
