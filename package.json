@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-orcas",
   "version": "1.0.0",
   "description": "Shared eslint configuration",
   "main": "index.js",
