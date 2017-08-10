@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orcasgit/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "ORCAS",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/orcasgit/eslint-config/issues"
+  },
+  "homepage": "https://github.com/orcasgit/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
