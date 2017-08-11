@@ -20,7 +20,7 @@
     "url": "https://github.com/orcasgit/eslint-config/issues"
   },
   "homepage": "https://github.com/orcasgit/eslint-config#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": ">= 3"
   }
 }
