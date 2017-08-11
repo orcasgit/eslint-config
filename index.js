@@ -1,6 +1,13 @@
 module.exports = {
+  'parserOptions': {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      modules: true,
+    },
+  },
   'root': true,
-  'env': { node: true },
+  'env': { browser: true, node: true },
   'extends': 'eslint:recommended',
   'rules': {
     'array-bracket-spacing': [
