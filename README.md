@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/orcasgit/eslint-config.svg?branch=master)](https://travis-ci.org/orcasgit/eslint-config)
+
 # eslint-config
 Shared eslint configuration
 

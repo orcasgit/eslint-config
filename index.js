@@ -1,8 +1,10 @@
+'use strict';
+
 module.exports = {
-  root: true,
-  env: {node: true},
-  extends: 'eslint:recommended',
-  rules: {
+  'root': true,
+  'env': { node: true },
+  'extends': 'eslint:recommended',
+  'rules': {
     'array-bracket-spacing': [
       2,
       'always',
@@ -21,51 +23,51 @@ module.exports = {
     'brace-style': [
       2,
       '1tbs',
-      {allowSingleLine: true},
+      { allowSingleLine: true },
     ],
     'callback-return': 2,
-    camelcase: [
+    'camelcase': [
       2,
-      {properties: 'never'},
+      { properties: 'never' },
     ],
     'comma-spacing': 2,
     'comma-style': 2,
-    complexity: [1, 15],
+    'complexity': [ 1, 15 ],
     'computed-property-spacing': 2,
     'consistent-return': 2,
     'constructor-super': 2,
-    curly: 2,
-    'dot-location': [2, 'property'],
+    'curly': 2,
+    'dot-location': [ 2, 'property' ],
     'dot-notation': 2,
     'eol-last': 2,
-    eqeqeq: 2,
-    'func-style': [2, 'expression'],
+    'eqeqeq': 2,
+    'func-style': [ 2, 'expression' ],
     'generator-star-spacing': 2,
     'guard-for-in': 2,
-    'handle-callback-err': [1, '^.*(e|E)rr'],
+    'handle-callback-err': [ 1, '^.*(e|E)rr' ],
     'id-blacklist': 0,
     'id-length': [
       2,
       {
         properties: 'never',
-        exceptions: ['$', '_', 'i'],
+        exceptions: [ '$', '_', 'i' ],
       },
     ],
-    indent: [
+    'indent': [
       2,
       2,
-      {SwitchCase: 1},
+      { SwitchCase: 1 },
     ],
     'key-spacing': 2,
     'keyword-spacing': 2,
     'linebreak-style': 2,
     'max-depth': 1,
     'max-len': 2,
-    'max-nested-callbacks': [1, 3],
-    'max-params': [1, 6],
+    'max-nested-callbacks': [ 1, 3 ],
+    'max-params': [ 1, 6 ],
     'max-statements-per-line': [
       2,
-      {max: 2},
+      { max: 2 },
     ],
     'new-cap': [
       2,
@@ -165,7 +167,7 @@ module.exports = {
     'no-warning-comments': [
       1,
       {
-        'terms': [
+        terms: [
           'todo',
           'fixme',
           '@@@',
@@ -203,17 +205,17 @@ module.exports = {
     'quote-props': [
       2,
       'consistent-as-needed',
-      {keywords: true},
+      { keywords: true },
     ],
-    quotes: [
+    'quotes': [
       2,
       'single',
       'avoid-escape',
     ],
-    radix: 2,
+    'radix': 2,
     'require-yield': 2,
     'semi-spacing': 2,
-    semi: 2,
+    'semi': 2,
     'sort-imports': 0,
     'space-before-blocks': 2,
     'space-before-function-paren': 2,
@@ -221,7 +223,7 @@ module.exports = {
     'space-infix-ops': 2,
     'space-unary-ops': 2,
     'spaced-comment': 2,
-    strict: [
+    'strict': [
       2,
       'global'
     ],
@@ -229,10 +231,10 @@ module.exports = {
     'wrap-iife': 2,
     'wrap-regex': 2,
     'yield-star-spacing': 2,
-    yoda: [
+    'yoda': [
       2,
       'never',
-      {exceptRange: true}
+      { exceptRange: true }
     ],
   }
 };

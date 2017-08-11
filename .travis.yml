@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+sudo: false
+script:
+- npm test
+notifications:
+  slack:
+    secure: g6YhazRHBebRDU7rNmSuKyucIzdptLjPypGIaJxjfoIqItlcwdQN1BFAqR06Z3PaJYQbBOdNdMMCZURxlKztx8n3GwWkd1tlm+k/betXaOECMf7qx/N+IaSDkzmVzKG3D1CiJ8lwqESRgP+k5F+3k/+qHe8fTPi1qCisdojieATuDyR7NVdIGY+D45wbw+tOYwyQcKvduLH/Og5kLSMuxvnRKgSDT0LnWeZ16OI97937wSaNaG78SA6q/ut36LL/DwBLWEGspfD7vuaLHTw4+H6OSnxsYkB6/D6VZwZdgz7MtJTyQx9bl2x/Pvy/QmtK9o7GpYBShl+sh4Nsc7p8yt+51holL6pIZlQPO1e2qAQ9Ux5//yc22z6Lri4q63Y4cqtrjFvZlgLMn2IDWYoglql7+r6AIom0xVBy25/wKdR5eWP2jurh9vf14HxKwbPQVc/i9e+SV6britlz6t25VIx1p4EY3tyqIjLrg0jvIJhH89L6TqdBkl5woTgeUJLpj7eW2SODPRQF3YwuwKGPzINrNcTFmsGQ3C187dkesAKg/1R9cg90dY0hUw32f1jUlTyWI3GW4OMiKKGug7DQp9+oD7LdmUkXPeJ/WUfuKatbMV0i4tBOKFxqZWGEWPou7FxGAd3NmuC2QS37WKPdR+ro0OXLXTt923+9BBYn4DM=

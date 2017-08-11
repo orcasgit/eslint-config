@@ -4,7 +4,7 @@
   "description": "Shared eslint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "url": "https://github.com/orcasgit/eslint-config/issues"
   },
   "homepage": "https://github.com/orcasgit/eslint-config#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": ">= 3"
   }
 }
