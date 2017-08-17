@@ -33,7 +33,7 @@ module.exports = {
     'callback-return': 2,
     'camelcase': [
       1,
-      { properties: 'never' },
+      { properties: 'always' },
     ],
     'comma-spacing': 2,
     'comma-style': 2,
